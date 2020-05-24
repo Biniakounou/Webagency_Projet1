@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		    <script src="https://kit.fontawesome.com/c65f6c0d45.js" crossorigin="anonymous"></script>
+		    <link rel="stylesheet" type="text/css" media="screen" href="css/desktop.css">
+		    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/tablet.css"/>
+            <link rel="stylesheet" media="screen and (max-width: 420px)" href="css/smartphone.css"/>
+		<!-- Open Graph data -->
+			<meta property="og:title" content="Webagency"/>
+			<meta property="og:type" content="website"/>
+			<meta property="og:url" content="https://github.com/Biniakounou/Webagency_Projet1.git">
+			<meta property="og:description" content="webagency, agence qui réalise des sites web pour différents clients.">
+		<!-- Twitter Card data -->
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="Webagency">
+            <meta name="twitter:title" content="Webagency">
+            <meta name="twitter:description" content="Webagency,agence qui réalise des sites web pour différents clients">
+            <meta name="twitter:creator" content="@author_handle">
+            <meta name="twitter:image" content="https://github.com/Biniakounou/Webagency_Projet1.git/bg1.jpg">
+            <title>Projet1 Webagency</title>
+	</head>   
+    <body>
+<!-- entête et menu-->
+	    <header>    		
+		    <a class="logo" href="#"><img class="logo" src="wa-media/images/logo.png" alt="photo logo WebAgency"/></a>
+			<ul>
+				<li><a href="#slider">Accueil</a></li>
+				<li><a href="#services">Service</a></li>
+				<li><a href="#nos_projets">Portfolio</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>		
+	    </header>       	
+<!--mise en page du slider-->
+		<section>
+            <div id="slider">
+                <figure>
+                    <img src="wa-media/images/slider/bg1.jpg" alt="petite fille"/>
+                    <img src="wa-media/images/slider/bg2.jpg" alt="petit garçon"/>
+                </figure>
+            </div>
+			<div id="tiretslider"></div>
+<!--boutons diaporama-->
+			<div class="boutons">
+				<div class="boutondiaporama boutongauche">
+					&nbsp;&nbsp;&lt;
+				</div>
+				<div class="boutondiaporama boutondroite">
+					&gt;&nbsp;&nbsp;
+				</div>
+			</div>
+<!--presentation de l'agence avec le bouton d'acceuil-->
+			<div id="description">
+				<h1><strong>WEBAGENCY</strong> : L' AGENCE DE TOUS VOS PROJETS !</h1>
+				<p>Vous avez un projet web? La webagency vous aide à le réaliser!</p>
+				<a href="#" id="boutonbleu">Plus d'infos</a>
+			</div>
+<!--les services-->
+	        <div id="services">
+		        <h2><strong>NOS SERVICES</strong></h2>
+		        <div id="cercle"><hr/></div>
+			    <p>De part notre expérience et nos fidèles clients, nous vous accompagnons à chaque étape afin de développer votre image et votre chiffre d'affaire sur internet que nous construisons à partir de nos 3 axes essentiels.</p>
+	        </div>
+		    <div id="ecran">
+			    <a href="#"><img src="wa-media/images/main-feature.png" alt="pc bureau" /></a>
+		    </div>
+<!--article des 3 axes essentiels-->
+        <article>
+                <h3><strong>3 AXES ESSENTIELS</strong></h3>			
+			<ul>
+				<li><i class="fas fa-chart-line icones"></i><div class="disque"></div><strong>Ux Design</strong><p>L'expérience d'utilisateur (User Experience) notre agence crée un site web ou une application qui identifie leurs réels besoins.</p></li>
+				<li><i class="fas fa-cubes icones"></i><div class="disque"></div><strong>Ui Design</strong><p>L'interface utilisateur nous permet de travailler sur le rendu visible et de provoquer l'expérience utilisateur.</p></li>
+				<li><i class="fas fa-chart-pie icones"></i><div class="disque"></div><strong>Seo</strong><p>Votre visibilité apporte de la valeur ajoutée lors d'une exploration de page web par l'optimisation pour les moteurs de recherche.</p></li>
+			</ul>			
+	    </article>
+        </section>
+<!--section Nos projets-->
+        <section id="nos_projets">
+    		<h2>NOS PROJETS</h2>
+    		<div id="rond"><hr/>
+    			<p>Notre vitrine de projets créee pour des clients...</p>
+    		</div>
+<!--menu nos projets-->
+        	<nav class="menu_projets">
+                <div class="bouton">
+                	<input type="radio" name="projets" value= "#allworks" id="bouton1"/>
+                    <label for="bouton1">Allworks</label>
+                    <div class="fleche"><i class="fas fa-caret-down fa-2x"></i></div>
+                </div>
+                <div class="bouton">
+                	<input type="radio" name="projets" value="#Creative" id="bouton2"/>
+                    <label for="bouton2">Creative</label>
+                    <div class="fleche"><i class="fas fa-caret-down fa-2x"></i></div>
+                </div>
+                <div class="bouton">
+                	<input type="radio" name="projets" value="#corporate" id="bouton3"/>
+                    <label for="bouton3">Corporate</label>
+                    <div class="fleche"><i class="fas fa-caret-down fa-2x"></i></div>
+                </div>
+                <div class="bouton">
+                	<input type="radio" name="projets" value="#Portfolio" id="bouton4"/>
+                    <label for="bouton4">Portfolio</label>
+                    <div class="fleche"><i class="fas fa-caret-down fa-2x"></i></div>
+                </div>
+            </nav>  
+<!--Le Portfolio-->
+            <div class="portfolio">
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/01.jpg" alt="01"></a>
+                    <article class="animation">
+            	        <h3>Centre Optique</h3>
+            	        <h4>site web</h4>
+                        <div class="eye">
+            	           <i class="fas fa-eye fa-lg"></i>
+                        </div>
+                    </article>
+                </div>
+                <div class="proposition">  
+                    <a href="#"><img src="wa-media/images/portfolio/02.jpg" alt="02"></a> 
+                    <article class="animation">
+                        <h3>Vente privée</h3>
+                        <h4>Site vitrine</h4>
+                        <div class="eye">
+                            <i class="fas fa-eye fa-lg"></i>
+                        </div>  
+                    </article>
+                </div> 
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/03.jpg" alt="03"></a>
+                    <article class="animation">
+                        <h3>Pompadour</h3>
+                        <h4>Barbier</h4>
+                        <div class="eye">
+                            <i class="fas fa-eye fa-lg"></i>  
+                        </div> 
+                    </article>
+                </div>
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/04.jpg" alt="04" /></a>
+                    <article class="animation">
+                        <h3>Architecte</h3>
+                        <h4>Prise de rendez-vous</h4> 
+                    <div class="eye">
+                        <i class="fas fa-eye fa-lg"></i> 
+                    </div>
+                    </article>
+                </div>
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/05.jpg" alt="05" /></a>
+                    <article class="animation">
+                        <h3>Shopping en ligne</h3>
+                        <h4>Création du site Web</h4>
+                    <div class="eye">
+                        <i class="fas fa-eye fa-lg"></i> 
+                    </div>    
+                    </article>
+                </div> 
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/06.jpg" alt="06" /></a>
+                    <article class="animation">
+                        <h3>Office de Tourime</h3>
+                        <h4>Location vélo circuit guidé</h4> 
+                    <div class="eye">
+                        <i class="fas fa-eye fa-lg"></i>
+                    </div>
+                    </article>
+                </div>
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/07.jpg" alt="07" /></a>
+                    <article class="animation">
+                        <h3>Fusée</h3>
+                        <h4>Blog Developpment personnel</h4>
+                    <div class="eye">
+                        <i class="fas fa-eye fa-lg"></i> 
+                    </div>
+                    </article>
+                </div>
+                <div class="proposition">
+                    <a href="#"><img src="wa-media/images/portfolio/08.jpg" alt="08" /></a>
+                    <article class="animation">
+                        <h3>Co Working</h3>
+                        <h4>espace de travail public</h4> 
+                    <div class="eye">
+                        <i class="fas fa-eye fa-lg"></i> 
+                    </div>    
+                    </article>
+                </div>
+            </div>
+        </section>		
+<!--pied de page : carte et formulaire de contact-->
+        <footer>
+		    <div class="iframe-background">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246080266!2d2.347636915640572!3d48.873055307627986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1581096950492!5m2!1sfr!2sfr" allowfullscreen="">
+			    </iframe>
+		    </div>
+		    <div id="formulaire">
+			    <form method="post" action="traitement.php">
+				   <h3>Contact info</h3>
+			       <p class="adress"><span class="web">Webagency SAS</span><br>
+				   25 rue d'Hauteville 75010 Paris<br>
+				   Tél: 01 02 03 04 05</p>
+			       <input type="text" name="name" id="name" placeholder="name"/> 
+		           <input type="email" id="email" name="email" placeholder="email"/>
+			       <input type="text" name="subject" id="subject" placeholder="subject">
+			       <textarea>Message</textarea>
+			       <input type="button" class="interrupteur" id="sendmessage" value="Send Message">
+		   	    </form>
+		    </div>   		
+	    </footer>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+/*
+ * smartphone.css
+ *
+ * contient les styles de la version smartphone 
+ *
+ * auteur:Arnold Biniakounou;
+ * version:1.0;
+ * date: 25/04/20;
+ */
+
+header {
+	display: grid;
+	background: white;
+}		
+
+header ul {
+	flex-direction: column;
+	margin-top: 2.5em;
+	margin-left: 2.5em;
+}
+
+header li {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	font-size: 1.6em;
+}
+
+#slider {
+	margin-top: 330px;
+	width: auto;
+}
+
+#description {
+	min-width: 45%;
+	font-size: 0.55em;
+	top: 83vw;
+}
+
+#description h1 {
+	font-size: 1.2em;
+}
+
+#description p {
+	margin-right: 25px;
+    }
+
+#boutonbleu {
+	margin-top: 0;
+	padding: 5px; 
+	}
+
+img.logo {
+	height: 18vw;
+	width: 97%;
+	background: white;
+	border-bottom: 55vw solid white;
+	border-right: 5vw solid white;
+	padding-left: 7vw;
+	padding-top: 3vw; 
+}
+
+a.logo {
+	flex: 0;
+	margin-right: 2em;
+	}
+
+#ecran {
+	max-width: 75%;
+	margin-left: 11vw;
+}
+
+#services p {
+	margin-left: 10vw;
+	margin-right: 10vw; 
+	}
+
+.icones {
+	margin-top: -70px;
+}
+
+.disque {
+	margin-top: -30px;		 	
+}
+
+article li strong {
+	position: relative;
+	bottom: 45px;
+}		
+
+article ul {
+	margin-top: 10vw;
+	margin-right: 10vw;
+}
+
+article li {
+	padding-top: 50px;
+	text-align: justify;
+}
+
+#formulaire {
+	max-width: 90%;
+	left: 5vw;
+}
+
+.interrupteur {
+	width: 35%;
+	right: 25.5vw;
+}		
+
+.menu_projets {
+	display: grid;
+}
+		
+	

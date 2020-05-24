@@ -1,0 +1,50 @@
+/*
+ * tablet.css
+ *
+ * contient les styles de la version smartphone 
+ *
+ * auteur:Arnold Biniakounou;
+ * version:1.0;
+ * date: 26/04/20;
+ */
+
+header li {
+	margin-right: 15px;
+}
+
+#description {
+	top: 10vw;
+	width: 36%;
+}
+
+
+#boutonbleu { 
+	font-size: 0.6em;
+}
+
+#ecran, #ecran img {
+	max-width: 65%;
+	margin-left: 15vw; 
+}
+
+article {
+	margin: auto;
+}
+
+.animation {
+	top: 155px;
+}
+			
+#formulaire {
+	max-width: 50%;
+	bottom: auto;
+	left: 25vw;
+}
+
+.interrupteur {
+	right: 17.5vw;
+	width: 22%; 
+}
+
+		
+	
